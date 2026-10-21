@@ -13,7 +13,7 @@ My everyday prompts are short, and that works because the context carries them: 
 - **I don't say the output format up front.** One comparison table took 3 turns to get right: list, then filter, then add a column.
 - **Some of my rules contradict how I actually work.** A standing rule told the agent to open pull requests automatically, while I kept typing "draft it, don't open it yet".
 - **Too much context loads every session.** More than 10 global rules, 2 style modes and about 70 memory lines load every time. Some of them overlap or conflict, and every line competes for the agent's attention.
-- **Requests I repeat are not skills yet.** For example "is this PR safe to approve?" and "compare sprint tickets with git".
+- **Requests I repeated were not skills.** "Is this PR safe to approve?" and "compare sprint tickets with git" each took several turns. Both are now skills with a fixed output format, and I should keep doing this for the next request I repeat.
 
 ## The plan (about 2 hours)
 
